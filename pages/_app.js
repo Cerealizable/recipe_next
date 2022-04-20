@@ -4,16 +4,15 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   return(
     <>
-      <nav>
+      <nav className="header">
         <div>
-          <Link href="\">
+          <Link href="/">
             <a>Tristin's kitchen</a>
           </Link>
         </div>
       </nav>
       <main>
         <Component {...pageProps} />
-
       </main>
     </>
   ); 
